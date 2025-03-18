@@ -5,6 +5,6 @@
 
   # miekoyao's Website
 
-  Visit **[miekoyao.github.io/tasty-pancreas](https://miekoyao.github.io/tasty-pancreas)** 🚀
+  Visit **[miekoyao.github.io/history-of-insulin-project](https://miekoyao.github.io/history-of-insulin-project)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
