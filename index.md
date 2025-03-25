@@ -3,7 +3,9 @@
 
 # History of Insulin: An Interactive Exhibit 
 
-This is a capstone design project for University of Toronto CSC490 course: Interactive Experiences with Physical Computing, working in collaboration with Mace Rothenberg from the [Museum of Medicine and Biomedical Discovery](https://mmbd.org/). Utilizing hardware, software, and design skills, we have created an educational exhibit on the discovery of insulin by Frederick Banting and Charles Best in 1921. 
+This is a capstone design project for the University of Toronto CSC490 course: Interactive Experiences with Physical Computing. Our team is comprised of Cole Wiltse, Mieko Yao, Tian Sirchich, and Yunling Zhang. For this project, we are working in collaboration with Dr. Paul Dietz, and Dr. Mace Rothenberg from the [Museum of Medicine and Biomedical Discovery](https://mmbd.org/).
+
+Utilizing hardware, software, and design skills, we have created an educational exhibit on the discovery of insulin by Frederick Banting and Charles Best in 1921. 
 
 {% include section.html %}
 
@@ -39,7 +41,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include button.html
   link="projects"
-  text="Browse our projects"
+  text="Read about the parts of the exhibit"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -51,7 +53,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="images/photo.jpg"
   link="projects"
-  title="Our Projects"
+  title="Individual Components"
   flip=true
   style="bare"
   text=text
