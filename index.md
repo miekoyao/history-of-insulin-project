@@ -1,9 +1,9 @@
 ---
 ---
 
-# miekoyao's Website
+# History of Insulin: An Interactive Exhibit 
 
-An engaging 1-3 sentence description of your lab.
+This is a capstone design project for University of Toronto CSC490 course: Interactive Experiences with Physical Computing, working in collaboration with Mace Rothenberg from the [Museum of Medicine and Biomedical Discovery](https://mmbd.org/). Utilizing hardware, software, and design skills, we have created an educational exhibit on the discovery of insulin by Frederick Banting and Charles Best in 1921. 
 
 {% include section.html %}
 
