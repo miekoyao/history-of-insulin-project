@@ -1,12 +1,11 @@
 ---
-title: Projects
+title: Individual Components
 nav:
-  order: 2
-  tooltip: Software, datasets, and more
+  order: 1
+  tooltip: All the parts of the exhibit, in depth
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
-
+# {% include icon.html icon="fa-solid fa-microscope" %}Individual Components
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
@@ -25,3 +24,5 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 ## More
 
 {% include list.html component="card" data="projects" filter="!group" style="small" %}
+
+
