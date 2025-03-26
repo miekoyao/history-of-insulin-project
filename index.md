@@ -17,7 +17,7 @@ A general overview of the exhibit experience, including text-descriptions and a 
 
 {%
   include button.html
-  link="research"
+  link="project"
   text="Read about our project"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -29,7 +29,7 @@ A general overview of the exhibit experience, including text-descriptions and a 
 {%
   include feature.html
   image="images/photo.jpg"
-  link="research"
+  link="project"
   title="Project Overview"
   text=text
 %}
@@ -40,7 +40,7 @@ In-depth descriptions of each stage/component of the exhibit and how we develope
 
 {%
   include button.html
-  link="projects"
+  link="components"
   text="Read about the parts of the exhibit"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -52,7 +52,7 @@ In-depth descriptions of each stage/component of the exhibit and how we develope
 {%
   include feature.html
   image="images/photo.jpg"
-  link="projects"
+  link="components"
   title="Individual Components"
   flip=true
   style="bare"
@@ -61,7 +61,7 @@ In-depth descriptions of each stage/component of the exhibit and how we develope
 
 {% capture text %}
 
-Backgrounds about who we are :)
+A little bit about who we are!
 
 {%
   include button.html
