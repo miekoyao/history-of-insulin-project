@@ -1,9 +1,10 @@
 ---
-name: John Doe
+name: Yunling Zhang
 image: images/photo.jpg
-role: phd
-group: alum
+role: undergrad
+affiliation: University of Toronto
 links:
+  email: wendyyy.zhang@mail.utoronto.ca
   github: john-doe
 ---
 
