@@ -1,8 +1,8 @@
 ---
-title: Individual Components
+title: Components
 nav:
   order: 1
-  tooltip: All the parts of the exhibit, in depth
+  tooltip: The parts of the exhibit
 ---
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Individual Components

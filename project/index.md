@@ -1,8 +1,8 @@
 ---
-title: Project Overview
+title: Project
 nav:
   order: 2
-  tooltip: Description of the overall project experience
+  tooltip: The overall exhibit
 ---
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Project Overview
