@@ -1,7 +1,7 @@
 ---
 title: Project
 nav:
-  order: 2
+  order: 1
   tooltip: The overall exhibit
 ---
 
