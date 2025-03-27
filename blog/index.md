@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Blog
 nav:
   order: 4
@@ -19,4 +19,4 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 {% include search-info.html %}
 
 {% include list.html data="posts" component="post-excerpt" %}
-{% include list.html data="posts" component="card" %}
+{% include list.html data="posts" component="card" %} -->
