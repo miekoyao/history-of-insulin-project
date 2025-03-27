@@ -21,18 +21,4 @@ Detailed descriptions of the hardware specifications for each component, how we 
 {% include list.html component="card" data="projects" filter="group == 'text'" style="small" %}
 
 
-<!-- {% include tags.html tags="publication, resource, website" %}
-
-{% include search-info.html %} -->
-<!-- 
-{% include section.html %}
-
-{% include list.html data="posts" component="post-excerpt" %} -->
-
-<!-- {% include section.html %}
-
-## More
-
-{% include list.html component="card" data="projects" filter="!group" style="small" %} -->
-
 
