@@ -3,9 +3,6 @@ name: Cole Wiltse
 image: images/cole.jpg
 role: undergrad
 affiliation: University of Toronto
-# aliases:
-#   - J. Smith
-#   - J Smith
 links:
   email: cole.wiltse@mail.utoronto.ca
   github: colewiltse
