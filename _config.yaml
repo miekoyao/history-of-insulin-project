@@ -9,11 +9,11 @@ proofer: false
 # site social media and other links
 links:
   email: mieko.yao@mail.utoronto.ca
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
+  # orcid: 0000-0001-8713-9213
+  # google-scholar: ETJoidYAAAAJ
   github: miekoyao
-  twitter: miekoyao
-  youtube: miekoyao
+  # twitter: miekoyao
+  # youtube: miekoyao
 
 ### jekyll settings
 
