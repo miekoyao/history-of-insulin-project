@@ -6,18 +6,20 @@ nav:
 ---
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Individual Components
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Detailed descriptions of the hardware specifications for each component, how we designed and built them, and things we learned along the way.
+
+
+{% include section.html %}
+
+{% include list.html component="card" data="projects" filter="group == 'components'" %}
 
 <!-- {% include tags.html tags="publication, resource, website" %}
 
 {% include search-info.html %} -->
-
+<!-- 
 {% include section.html %}
 
-{% include list.html data="posts" component="post-excerpt" %}
-
-{% include list.html component="card" data="projects" filter="group == 'featured'" %}
+{% include list.html data="posts" component="post-excerpt" %} -->
 
 <!-- {% include section.html %}
 

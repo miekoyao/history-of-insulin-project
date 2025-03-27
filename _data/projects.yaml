@@ -1,6 +1,27 @@
+
+- title: Introduction & Educational Content
+  subtitle: a subtitle
+  group: background
+  image: images/photo.jpg
+  link: /components/intro
+  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  # repo: greenelab/lab-website-template
+  tags:
+    - text
+
+- title: Mixing Flasks
+  subtitle: a subtitle
+  group: components
+  image: images/photo.jpg
+  link: /components/flasks
+  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  # repo: greenelab/lab-website-template
+  tags:
+    - component
+    
 - title: Centrifuge
   subtitle: a subtitle
-  group: featured
+  group: components
   image: images/photo.jpg
   link: /components/centrifuge
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -8,40 +29,24 @@
   tags:
     - component
 
-- title: Cool Package
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
 
-- title: Cool Tutorial
+- title: Syringe & Layer Extraction
   subtitle: a subtitle
+  group: components
   image: images/photo.jpg
-  link: https://github.com/
+  link: /components/syringe
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  # repo: greenelab/lab-website-template
   tags:
-    - resource
-    - publication
+    - component
 
-- title: Cool Web App
+- title: Marjorie
   subtitle: a subtitle
+  group: components
   image: images/photo.jpg
-  link: https://github.com/
+  link: /components/dog
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  # repo: greenelab/lab-website-template
   tags:
-    - software
+    - component
 
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
