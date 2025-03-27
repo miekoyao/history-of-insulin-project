@@ -11,8 +11,14 @@ Detailed descriptions of the hardware specifications for each component, how we 
 
 {% include section.html %}
 
+## Hardware & Physical Components
 {% include list.html component="card" data="projects" filter="group == 'components'" %}
 
+{% include section.html %}
+
+
+## Text & Voiceovers
+{% include list.html component="card" data="projects" filter="group == 'text'" %}
 <!-- {% include tags.html tags="publication, resource, website" %}
 
 {% include search-info.html %} -->
