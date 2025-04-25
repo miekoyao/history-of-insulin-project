@@ -66,10 +66,10 @@
 
   <meta name="author" content="mieko-yao">
   <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2025-04-24T23:00:37+00:00">
+  <meta property="og:updated_time" content="2025-04-25T09:36:40+00:00">
   <meta property="article:published_time" content="">
-  <meta property="article:modified_time" content="2025-04-24T23:00:37+00:00">
-  <meta name="revised" content="2025-04-24T23:00:37+00:00">
+  <meta property="article:modified_time" content="2025-04-25T09:36:40+00:00">
+  <meta name="revised" content="2025-04-25T09:36:40+00:00">
 
 
 <script type="application/ld+json">
@@ -79,7 +79,7 @@
       "@type": "BlogPosting",
       "author": { "@type": "Person", "name": "Flask Mixing Puzzle" },
       "datePublished": "",
-      "dateModified": "2025-04-24T23:00:37+00:00",
+      "dateModified": "2025-04-25T09:36:40+00:00",
     
     "name": "Flask Mixing Puzzle",
     "description": "Project website for CSC490 Capstone design course.",
@@ -513,7 +513,180 @@
   
 
   <section class="background" data-size="page">
-    <p>For the first interactive component of our project, users pour reagents in and out of flasks to achieve a mixture of specific goal proportions.</p>
+    <h2 id="historical-context">Historical Context</h2>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="Banting and Best s Laboratory">
+    <img src="/history-of-insulin-project/images/old_lab.jpg" style="
+        width: 600px;
+        max-height: unset;
+      " alt="Banting and Best s Laboratory" loading="lazy" onerror="this.src = '/history-of-insulin-project/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      Banting and Best’s Laboratory
+
+    </figcaption>
+  
+</figure>
+
+<p>In 1921, Dr. Fredric Banting and Charles Best made a groundbreaking discovery: insulin could be extracted from the pancreas using alcohol. By using pancreatic tissue and a solution consisting of 90% ethyl alcohol, they were able to separate and stabilize the insulin from unwanted impurities. This key advance is what paved the way for insulin as a treatment for diabetes.</p>
+
+<p>The process was later improved by first breaking down the pancreas using slightly acidified acetone before using alcohol to isolate the insulin.</p>
+
+<p>Fun fact: The ethyl alcohol used in this extraction is the same type found in alcoholic beverages, just in a much purer form! Similarly, acetone is commonly found in items like nail polish remover or paint thinner.</p>
+
+<h2 id="design-breakdown">Design Breakdown</h2>
+
+<p>For the first interactive component of our project, users pour reagents in and out of flasks to achieve a mixture of specific goal proportions.</p>
+
+<div class="grid" data-style="">
+  
+<figure class="figure">
+  <a class="figure-image" aria-label="The largest size flask">
+    <img src="/history-of-insulin-project/images/blue_flask.jpg" style="
+        width: 300px;
+        max-height: unset;
+      " alt="The largest size flask" loading="lazy" onerror="this.src = '/history-of-insulin-project/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      The largest size flask
+
+    </figcaption>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="The medium size flask">
+    <img src="/history-of-insulin-project/images/green_flask.jpg" style="
+        width: 300px;
+        max-height: unset;
+      " alt="The medium size flask" loading="lazy" onerror="this.src = '/history-of-insulin-project/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      The medium size flask
+
+    </figcaption>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="The smallest size flask">
+    <img src="/history-of-insulin-project/images/red_flask.jpg" style="
+        width: 300px;
+        max-height: unset;
+      " alt="The smallest size flask" loading="lazy" onerror="this.src = '/history-of-insulin-project/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      The smallest size flask
+
+    </figcaption>
+  
+</figure>
+
+
+</div>
+
+<p>Above are the 3 flasks participants will use. The goal for this activity is for participants to move simulated reagents from flask to flask in order to achieve 4 litres of solution in the largest flask.</p>
+
+<div class="grid" data-style="">
+  
+<figure class="figure">
+  <a class="figure-image" aria-label="Largest flask, highest capacity">
+    <img src="/history-of-insulin-project/images/blue_flask.jpg" style="
+        width: 300px;
+        max-height: unset;
+      " alt="Largest flask, highest capacity" loading="lazy" onerror="this.src = '/history-of-insulin-project/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      Largest flask, highest capacity
+
+    </figcaption>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="Largest flask, medium capacity">
+    <img src="/history-of-insulin-project/images/blue_flask_med.jpg" style="
+        width: 300px;
+        max-height: unset;
+      " alt="Largest flask, medium capacity" loading="lazy" onerror="this.src = '/history-of-insulin-project/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      Largest flask, medium capacity
+
+    </figcaption>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="Largest flask, smallest capacity">
+    <img src="/history-of-insulin-project/images/blue_flask_low.jpg" style="
+        width: 300px;
+        max-height: unset;
+      " alt="Largest flask, smallest capacity" loading="lazy" onerror="this.src = '/history-of-insulin-project/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      Largest flask, smallest capacity
+
+    </figcaption>
+  
+</figure>
+
+
+</div>
+
+<p>Amounts of fluid are displayed using rows of LED strips, indicating how much fluid is currently in each container.</p>
+
+<div class="cols" style="--cols: 2">
+  
+    
+    <div>
+<figure class="figure">
+  <a class="figure-image" aria-label="Inside of flask, side view">
+    <img src="/history-of-insulin-project/images/flask_naked_side.jpg" style="
+        width: 300px;
+        max-height: unset;
+      " alt="Inside of flask, side view" loading="lazy" onerror="this.src = '/history-of-insulin-project/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      Inside of flask, side view
+
+    </figcaption>
+  
+</figure>
+
+</div>
+  
+    
+    <div>
+<figure class="figure">
+  <a class="figure-image" aria-label="Inside of flask, top view">
+    <img src="/history-of-insulin-project/images/flask_naked_top.jpg" style="
+        width: 300px;
+        max-height: unset;
+      " alt="Inside of flask, top view" loading="lazy" onerror="this.src = '/history-of-insulin-project/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      Inside of flask, top view
+
+    </figcaption>
+  
+</figure>
+
+</div>
+  
+</div>
+
+<p>An ATOM S3 is contained within each flask, providing logic as well as detecting motion of the flasks. When two flasks bump, the ATOM S3’s detect this vibration and allow us to determine which flask is being poured into which.</p>
   </section>
 
 

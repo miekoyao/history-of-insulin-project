@@ -66,10 +66,10 @@
 
   <meta name="author" content="mieko-yao">
   <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2025-04-24T23:00:37+00:00">
+  <meta property="og:updated_time" content="2025-04-25T09:36:40+00:00">
   <meta property="article:published_time" content="">
-  <meta property="article:modified_time" content="2025-04-24T23:00:37+00:00">
-  <meta name="revised" content="2025-04-24T23:00:37+00:00">
+  <meta property="article:modified_time" content="2025-04-25T09:36:40+00:00">
+  <meta name="revised" content="2025-04-25T09:36:40+00:00">
 
 
 <script type="application/ld+json">
@@ -79,7 +79,7 @@
       "@type": "BlogPosting",
       "author": { "@type": "Person", "name": "Syringe &amp; Layer Extraction" },
       "datePublished": "",
-      "dateModified": "2025-04-24T23:00:37+00:00",
+      "dateModified": "2025-04-25T09:36:40+00:00",
     
     "name": "Syringe &amp; Layer Extraction",
     "description": "Project website for CSC490 Capstone design course.",
@@ -513,7 +513,34 @@
   
 
   <section class="background" data-size="page">
-    <p>For this component, users are working with their mixture once it has completed centrifuging and is separated into distinct layers.</p>
+    <h2 id="historical-context">Historical Context</h2>
+
+<p>Following centrifugation, Banting and Best’s tube had 4 distinct layers :</p>
+
+<ul>
+  <li>
+    <p>The top one was clear, and consisted of alcohol holding the insulin in solution.</p>
+  </li>
+  <li>
+    <p>The second layer contained flocculent (fluffy-looking) protein.</p>
+  </li>
+  <li>
+    <p>The third layer was a clear watery solution saturated with salt</p>
+  </li>
+  <li>
+    <p>The fourth layer contained salt crystals</p>
+  </li>
+</ul>
+
+<p>Banting and Best extracted the layer containing insulin using a glass pipette. The extracted solution was then mixed with pure alcohol, which caused the insulin to precipitate out of the mixture. The insulin was then separated from the alcohol using a Buchner funnel, and then further filtered before it was ready to be administered to test subjects.</p>
+
+<h2 id="design-breakdown">Design Breakdown</h2>
+
+<p>For this component, users are working with their mixture once it has completed centrifuging and is separated into distinct layers.</p>
+
+<p>This stage has two main components, the layer container and the syringe. The layer container contains 4 rows of LED strips, simulating the 4 layers of the solution after the use of the centrifuge. The layer container contains a vertically standing linear potentiometer with a horizontal plate attached to its lever. As the user puts the syringe into the layer container, the plate will be pushed down, allowing a specific layer to be selected.</p>
+
+<p>The syringe also contains a linear potentiometer, this one being attached the syringe’s plunger. When the plunger is pulled back, the currently selected layer from the layer container is selected. An led inside the syringe then glows, indicating the current solution now inside the syringe.</p>
   </section>
 
 
