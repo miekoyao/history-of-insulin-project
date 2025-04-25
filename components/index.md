@@ -1,7 +1,7 @@
 ---
 title: Components
 nav:
-  order: 2
+  order: 3
   tooltip: The parts of the exhibit
 ---
 
