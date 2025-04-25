@@ -11,7 +11,7 @@ author: mieko-yao
 
 {%
   include figure.html
-  image="images/old_centri.jpg"
+  image="images/old_lab.jpg"
   caption="Banting and Best's Laboratory"
   width="600px"
 %}
