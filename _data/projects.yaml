@@ -1,52 +1,47 @@
 
 - title: Introduction & Educational Content
-  subtitle: a subtitle
   group: text
   image: images/photo.jpg
   link: /text/intro
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: Detailed voiceovers and educational info.
   # repo: greenelab/lab-website-template
   tags:
-    - text
+    - 
 
 - title: Mixing Flasks
-  subtitle: a subtitle
   group: components
-  image: images/photo.jpg
+  image: images/blue_flask.jpg
   link: /components/flasks
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: A mixing puzzle where particpants prepare a solution to extract insulin.
   # repo: greenelab/lab-website-template
   tags:
-    - component
+    - 
     
 - title: Centrifuge
-  subtitle: a subtitle
   group: components
-  image: images/photo.jpg
+  image: images/centrifuge_and_crank.jpg
   link: /components/centrifuge
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: A mock centrifuge using a hand crank and motorized spinning mechanism.
   # repo: greenelab/lab-website-template
   tags:
-    - component
+    - 
 
 
 - title: Syringe & Layer Extraction
-  subtitle: a subtitle
   group: components
   image: images/photo.jpg
   link: /components/syringe
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: A large container and syrynge allowing particpants to simulate extracting insulin.
   # repo: greenelab/lab-website-template
   tags:
-    - component
+    - 
 
 - title: Marjorie
-  subtitle: a subtitle
   group: components
   image: images/photo.jpg
   link: /components/dog
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: An animitronic dog ill with diabetes, the final test to discover insulin.
   # repo: greenelab/lab-website-template
   tags:
-    - component
+    - 
 

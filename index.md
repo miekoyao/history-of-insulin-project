@@ -28,7 +28,7 @@ A general overview of the exhibit experience, including text-descriptions and a 
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/centrifuge_and_crank.jpg"
   link="project"
   title="Project Overview"
   text=text
@@ -51,7 +51,7 @@ In-depth descriptions of each stage/component of the exhibit and how we develope
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/flask_naked_side.jpg"
   link="components"
   title="Individual Components"
   flip=true
@@ -76,7 +76,7 @@ A little bit about who we are!
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/team_photo.jpg"
   link="team"
   title="Our Team"
   text=text
