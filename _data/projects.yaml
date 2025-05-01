@@ -29,7 +29,7 @@
 
 - title: Syringe & Layer Extraction
   group: components
-  image: images/photo.jpg
+  image: images/layer_and_syringe.jpg
   link: /components/syringe
   description: A large container and syrynge allowing particpants to simulate extracting insulin.
   # repo: greenelab/lab-website-template
@@ -38,7 +38,7 @@
 
 - title: Marjorie
   group: components
-  image: images/photo.jpg
+  image: images/dog_front.jpg
   link: /components/dog
   description: An animitronic dog ill with diabetes, the final test to discover insulin.
   # repo: greenelab/lab-website-template

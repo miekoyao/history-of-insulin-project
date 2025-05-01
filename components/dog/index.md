@@ -13,7 +13,7 @@ author: mieko-yao
   include figure.html
   image="images/bb_and_dog.jpg"
   caption="Banting and Best standing with one of the dogs they tested on"
-  width="600px"
+  width="400px"
 %}
 
 Initially, dogs were the primary test subjects used in the experimental trials conducted by Banting and Best. Though these tests eventually led to the discovery of medical insulin, many of the dogs unfortunately did not survive the testing. This raised an ethical debate among activists since many saw this usage of animals as test subjects as cruel or unfair. However, it was because of their work that millions of people now have a treatment to help them live with diabetes.
