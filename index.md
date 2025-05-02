@@ -28,7 +28,7 @@ A general overview of the exhibit experience, including text-descriptions and a 
 
 {%
   include feature.html
-  image="images/centrifuge_and_crank.jpg"
+  image="images/team_photo_demo.jpg"
   link="project"
   title="Project Overview"
   text=text
