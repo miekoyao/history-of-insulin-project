@@ -12,7 +12,7 @@ author: mieko-yao
 {%
   include figure.html
   image="images/injectin_insulin_diagram.jpg"
-  caption="Early diagram displaying how to properly inject someone with insulin."
+  caption="Early diagram displaying how to properly inject someone with insulin"
   width="400px"
 %}
 
@@ -37,7 +37,7 @@ For this component, users are working with their mixture once it has completed c
 {%
   include figure.html
   image="images/layer_container.jpg"
-  caption="Our layer container, with all 4 rows visible."
+  caption="Our layer container, with all 4 rows visible"
   width="300px"
 %}
 
@@ -46,7 +46,7 @@ This stage has two main components, the layer container and the syringe. The lay
 {%
   include figure.html
   image="images/syringe_closeup.png"
-  caption="The syringe currently selecting the red layer from the layer container."
+  caption="The syringe currently selecting the red layer from the layer container"
   width="300px"
 %}
 
