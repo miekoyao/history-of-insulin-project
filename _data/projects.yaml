@@ -1,7 +1,7 @@
 
-- title: Introduction & Educational Content
+- title: Educational Content
   group: text
-  image: images/photo.jpg
+  image: images/station1.jpg
   link: /text/intro
   description: Detailed voiceovers and educational info.
   # repo: greenelab/lab-website-template
