@@ -66,10 +66,10 @@
 
   <meta name="author" content="mieko-yao">
   <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2025-04-25T09:36:40+00:00">
+  <meta property="og:updated_time" content="2025-05-04T16:43:17+00:00">
   <meta property="article:published_time" content="">
-  <meta property="article:modified_time" content="2025-04-25T09:36:40+00:00">
-  <meta name="revised" content="2025-04-25T09:36:40+00:00">
+  <meta property="article:modified_time" content="2025-05-04T16:43:17+00:00">
+  <meta name="revised" content="2025-05-04T16:43:17+00:00">
 
 
 <script type="application/ld+json">
@@ -79,7 +79,7 @@
       "@type": "BlogPosting",
       "author": { "@type": "Person", "name": "Syringe &amp; Layer Extraction" },
       "datePublished": "",
-      "dateModified": "2025-04-25T09:36:40+00:00",
+      "dateModified": "2025-05-04T16:43:17+00:00",
     
     "name": "Syringe &amp; Layer Extraction",
     "description": "Project website for CSC490 Capstone design course.",
@@ -515,6 +515,21 @@
   <section class="background" data-size="page">
     <h2 id="historical-context">Historical Context</h2>
 
+<figure class="figure">
+  <a class="figure-image" aria-label="Early diagram displaying how to properly inject someone with insulin">
+    <img src="/history-of-insulin-project/images/injectin_insulin_diagram.jpg" style="
+        width: 400px;
+        max-height: unset;
+      " alt="Early diagram displaying how to properly inject someone with insulin" loading="lazy" onerror="this.src = '/history-of-insulin-project/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      Early diagram displaying how to properly inject someone with insulin
+
+    </figcaption>
+  
+</figure>
+
 <p>Following centrifugation, Banting and Best’s tube had 4 distinct layers :</p>
 
 <ul>
@@ -538,9 +553,43 @@
 
 <p>For this component, users are working with their mixture once it has completed centrifuging and is separated into distinct layers.</p>
 
-<p>This stage has two main components, the layer container and the syringe. The layer container contains 4 rows of LED strips, simulating the 4 layers of the solution after the use of the centrifuge. The layer container contains a vertically standing linear potentiometer with a horizontal plate attached to its lever. As the user puts the syringe into the layer container, the plate will be pushed down, allowing a specific layer to be selected.</p>
+<figure class="figure">
+  <a class="figure-image" aria-label="Our layer container, with all 4 rows visible">
+    <img src="/history-of-insulin-project/images/layer_container.jpg" style="
+        width: 300px;
+        max-height: unset;
+      " alt="Our layer container, with all 4 rows visible" loading="lazy" onerror="this.src = '/history-of-insulin-project/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      Our layer container, with all 4 rows visible
 
-<p>The syringe also contains a linear potentiometer, this one being attached the syringe’s plunger. When the plunger is pulled back, the currently selected layer from the layer container is selected. An led inside the syringe then glows, indicating the current solution now inside the syringe.</p>
+    </figcaption>
+  
+</figure>
+
+<p>This stage has two main components, the layer container and the syringe. The layer container contains 4 rows of LED strips, simulating the 4 layers of the solution after the use of the centrifuge. The layer container contains a vertically standing linear potentiometer with a horizontal plate attached to its lever. As the user puts the syringe into the layer container, the plate will be pushed down, allowing a specific layer to be selected. The goal is to extract the correct layer according to hints given in our audio voiceovers and instruction booklets.</p>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="The syringe currently selecting the red layer from the layer container">
+    <img src="/history-of-insulin-project/images/syringe_closeup.png" style="
+        width: 300px;
+        max-height: unset;
+      " alt="The syringe currently selecting the red layer from the layer container" loading="lazy" onerror="this.src = '/history-of-insulin-project/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      The syringe currently selecting the red layer from the layer container
+
+    </figcaption>
+  
+</figure>
+
+<p>The syringe also contains a linear potentiometer, this one being attached the syringe’s plunger. When the plunger is pulled back, the currently highlighted layer from the layer container is selected. An led inside the syringe then glows, indicating the current solution is now inside the syringe.</p>
+
+<p><iframe id="media-hUvnLN9SgDQ" class="media" src="https://www.youtube.com/embed/hUvnLN9SgDQ?v=hUvnLN9SgDQ%3Fwidth%3D800&height=400" title="" width="100%" height="400" style="max-width: 600px;outline: none" allow="encrypted-media; picture-in-picture" frameborder="0" allowfullscreen></iframe></p>
+
+<p>If the correct layer is selected, then intjecting our animatronic dog Majorie with the syringe will wake her up, indicating that the participant has successfully completed our exhibit. Otherwise, the participant will need to select another layer and try again. Above is a brief video going through this process.</p>
   </section>
 
 
