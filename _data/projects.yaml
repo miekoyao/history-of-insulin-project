@@ -10,7 +10,7 @@
 
 - title: Mixing Flasks
   group: components
-  image: images/blue_flask.jpg
+  image: images/3_flasks_b.jpg
   link: /components/flasks
   description: A mixing puzzle where particpants prepare a solution to extract insulin.
   # repo: greenelab/lab-website-template
@@ -29,7 +29,7 @@
 
 - title: Syringe & Layer Extraction
   group: components
-  image: images/layer_and_syringe.jpg
+  image: images/layer_container_a.png
   link: /components/syringe
   description: A large container and syrynge allowing particpants to simulate extracting insulin.
   # repo: greenelab/lab-website-template
