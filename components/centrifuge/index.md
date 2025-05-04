@@ -29,7 +29,7 @@ For the centrifuge, users learn about centrifuge best practices and how it works
 {%
   include figure.html
   image="images/centrifuge_and_crank.jpg"
-  caption="Centrifuge and Hand Crank"
+  caption="Centrifuge and hand crank"
   width="400px"
 %}
 
@@ -38,7 +38,7 @@ Our centrifuge consists of two main components, the container and the hand crank
 {%
   include figure.html
   image="images/inside_centrifuge.jpg"
-  caption="View of Inside the Centrifuge"
+  caption="View of inside the centrifuge"
   width="400px"
 %}
 
@@ -47,8 +47,12 @@ The centrifuge contains a motorized spinner where two vials can be placed. As th
 {%
   include figure.html
   image="images/crank.jpg"
-  caption="Close-up View of Hand Crank"
+  caption="Close-up view of hand crank and its light sensor"
   width="400px"
 %}
 
 The hand crank uses a light sensor to detect the rate of motion. This allows us to increase the speed of the motorized centrifuge accordingly, simulating a real world centrifuge.
+
+![](https://www.youtube.com/watch?v=O4jb2MhPzJ8?width=800&height=400) 
+
+The above video demonstrates our centrifuge in action and how the hand crank interacts with it.

@@ -13,7 +13,7 @@ author: mieko-yao
   include figure.html
   image="images/bb_and_dog.jpg"
   caption="Banting and Best standing with one of the dogs they tested on"
-  width="600px"
+  width="400px"
 %}
 
 Initially, dogs were the primary test subjects used in the experimental trials conducted by Banting and Best. Though these tests eventually led to the discovery of medical insulin, many of the dogs unfortunately did not survive the testing. This raised an ethical debate among activists since many saw this usage of animals as test subjects as cruel or unfair. However, it was because of their work that millions of people now have a treatment to help them live with diabetes.
@@ -28,6 +28,33 @@ Fun Fact: Marjorie was the name of the primary dog Banting and Best tested on!
 
 To verify that they have successfully isolated insulin from the previous steps, users will test their extracted mixture by injecting it into Marjorie, an animatronic dog. 
 
-Our dog contains internal motors, allowing for the head/upper body to move up an down. Audio speakers are also attached to simulate what Majorie would really sound like. To inject her with insulin, we added a hall effect sensor to a designated region on the body. This will detect when the magnet on the tip of the syringe is near the injection site.
+{% capture col1 %}
+{%
+  include figure.html
+  image="images/dog_side_cropped.jpg"
+  caption="Side view of our dog Majorie"
+  width="300px"
+%}
+{% endcapture %}
+{% capture col2 %}
+{%
+  include figure.html
+  image="images/motor_side.jpg"
+  caption="The internal motor responsible for Majorie's movememts"
+  width="300px"
+%}
 
-When the plunger on the syringe is pushed in while in contact with Majorie, we check if the injected solution was the correct layer slected from the previous section. If wrong, Majorie will move her head down and fall back asleep. Participants would then have to retry the layer container section and try another layer until they pick the right one. If correct, she will wake up and bark with joy, congratulating the user on completing our exhibit!
+{% endcapture %}
+
+{%
+  include cols.html
+  col1=col1
+  col2=col2
+%}
+
+Our dog contains internal motors, allowing for the head/upper body to move up an down. Audio speakers are also attached nearby to simulate what Majorie would really sound like. To inject her with insulin, we added a hall effect sensor to a designated region on the inside of the body. This will detect when the magnet on the tip of the syringe is near the injection site.
+
+![](https://www.youtube.com/watch?v=L2qPwtwxhQk?width=800&height=400)
+
+
+When the plunger on the syringe is pushed in while in contact with Majorie, we check if the injected solution was the correct layer slected from the previous section. If wrong, Majorie will not move and our audio voiceover will tell the particpant to try again. Participants would then have to retry the layer container section and select another layer until they pick the right one. If correct, Majorie will wake up and bark with joy, congratulating the user on completing our exhibit, as shown in the above video.

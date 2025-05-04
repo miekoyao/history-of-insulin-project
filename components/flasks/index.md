@@ -111,3 +111,8 @@ Amounts of fluid are displayed using rows of LED strips, indicating how much flu
 
 An ATOM S3 is contained within each flask, providing logic as well as detecting motion of the flasks. When two flasks bump, the ATOM S3’s detect this vibration and allow us to determine which flask is being poured into which.
 
+
+![](https://www.youtube.com/watch?v=r_z4j_SxFqw?width=800&height=400) 
+
+
+The above video demonstrates how the flasks interact with each other and shows the simulated transfer of fluid between them.
